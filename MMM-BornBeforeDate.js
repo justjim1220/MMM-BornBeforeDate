@@ -44,7 +44,7 @@ Module.register("MMM-BornBeforeDate", {
 		var dateWrapper = document.createElement("div");
 		dateWrapper.className = "date";
 		var y = moment().subtract('years', 21).format('MMMM DD, YYYY');
-        dateWrapper.innerHTML = "<h5>You can NOT enter these premises if you were born AFTER this date:</h5>" + "<p><h2>" + y + "</p></h2>";
+        dateWrapper.innerHTML = "<h5>You Must Be Born On Or Before This Date:</h5>" + "<p><h2>" + y + "</p></h2>";
         wrapper.appendChild(dateWrapper);
         return wrapper;
     }
