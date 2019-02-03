@@ -14,7 +14,7 @@ modules: [
 	{
     disabled: false,
 		module: "MMM-BornBeforeDate",
-		position: "middle_center",	// works best in the bar, third, or middle_center regions, unless you change the size to fit other regions
+		position: "top_right",
 	},
 ]
 ````
