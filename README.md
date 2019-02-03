@@ -4,7 +4,7 @@ module request to show the current date minus 21 years
 
 ## Screenshots
 
-![ScreenShot](https://github.com/justjim1220/MMM-BornBeforeDate/blob/master/Screenshot%20(15).png)
+![ScreenShot](https://github.com/justjim1220/MMM-BornBeforeDate/blob/master/Screenshot%20(38).png)
 
 ## Using the module
 
