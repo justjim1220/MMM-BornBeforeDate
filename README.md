@@ -28,7 +28,7 @@ npm install
 
 ## Configuration options
 
-changes for color, size, and font can be made within the css file or your custom.css file
+changes for colors, sizes, and fonts can be made within the css file or your custom.css file
 to change the message above the date, will need to change it in the js file - line 47
 (this may change in the future)
 
