@@ -12,6 +12,9 @@
  */
 
 Module.register("MMM-BornBeforeDate", {
+	defaults: {
+	    message: "You Must Be Born On Or Before This Date:"
+	},
 
 	requiresVersion: "2.1.0",
 
@@ -45,7 +48,7 @@ Module.register("MMM-BornBeforeDate", {
 		dateWrapper.className = "date";
 		var y = moment().subtract("years", 21).format("MMM DD, YYYY");
 		y.className = "y";
-        dateWrapper.innerHTML = "You Must Be Born On Or Before This Date: <br>" + y + "<br>Warning:<br>21+<br>Adults Only!";
+        dateWrapper.innerHTML = this.config.message + "<br>" + y;
         wrapper.appendChild(dateWrapper);
         return wrapper;
     }
