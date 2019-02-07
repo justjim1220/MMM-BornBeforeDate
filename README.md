@@ -11,10 +11,12 @@ module request to show the current date minus 21 years
 To use this module, add it to the modules array in the `config/config.js` file:
 ````javascript
 modules: [
-	{
-    disabled: false,
-		module: "MMM-BornBeforeDate",
-		position: "top_right",
+    {
+        disabled: false,
+        module: "MMM-BornBeforeDate",
+        position: "top_right",
+	config: {
+	    message: "You Must Be Born On Or Before This Date:"   // change to how you want...
 	},
 ]
 ````
