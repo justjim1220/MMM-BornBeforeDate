@@ -17,7 +17,8 @@ modules: [
         position: "top_right",
 	config: {
 	    message: "You Must Be Born On Or Before This Date:"   // change to how you want...
-	},
+	}
+    },
 ]
 ````
 ## Install...
